@@ -31,8 +31,12 @@ conda install -c r r-dplyr
 #Install using R
 
 devtools::install_github("alyssafrazee/RSkittleBrewer")
+
 install.packages(‘BiocManager’)
+
 BiocManager::install(‘ballgown’)
+
 BiocManager::install('genefilter')
+
 BiocManager::install(‘cowplot’)
 
